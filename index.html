@@ -3,56 +3,67 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pink - взгляните на жизнь иначе!</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<header class="page-header">
-		<div class="page-header__top-row">
-			<div class="page-header__logo-wrap">
-				<a href="/" class="page-header__logo-link">
-					<img src="img/logo.svg" alt="Приложение Pink">
-				</a>
+		<div class="page-header__wrapper">
+
+			<div class="page-header__top-row">		
+				<div class="page-header__logo-wrap">
+					<a href="/" class="page-header__logo-link">
+						<img src="img/logo-1.svg" alt="Приложение Pink" width="75" height="22">
+					</a>
+				</div>
+				<div class="page-header__button-wrap">
+					<button href="" class="page-header__menu-button" type="button">
+							&times;
+					</button>
+				</div>
 			</div>
 
 			<div class="page-header__nav-wrap">
-				<nav class="main-nav"> <!-- можно сделать элементом -->
+				<nav class="main-nav main-nav--closed main-nav--nojs"> <!-- можно сделать элементом -->
 					<ul class="main-nav__list">
-						<li><a href="" class="main-nav__item">Информация</a></li>
-						<li><a href="" class="main-nav__item">Возможности</a></li>
-						<li><a href="" class="main-nav__item">Отзывы</a></li>
-						<li><a href="" class="main-nav__item">Стоимость</a></li>
+							<li><a href="" class="main-nav__item">Информация</a></li>
+							<li><a href="" class="main-nav__item">Возможности</a></li>
+							<li><a href="" class="main-nav__item">Отзывы</a></li>
+							<li><a href="" class="main-nav__item">Стоимость</a></li>
 					</ul>
-					<button href="" class="main-nav__toggle main-nav__toggle--close" type="button">
-						<!-- Гамбургер -->
-					</button>
 				</nav>
 			</div>
+
+		</div>
+		
+	</header>
+
+	<section class="promo-block">
+		<div class="promo-block__appeal-wrapper">
+			<h2 class="promo-block__appeal">
+				Взгляните на жизнь иначе!!!
+			</h2>
 		</div>
 
-		<section class="promo-block">
-			<div class="promo-block__appeal-wrapper">
-				<h2 class="promo-block__appeal">
-					Взгляните на жизнь иначе!!!
-				</h2>
-			</div>
+		<div class="promo-block__image-wrapper">
+			<img src="" alt="" class="promo-block__feature-image">
+		</div>
 
-			<div class="promo-block__image-wrapper">
-				<img src="" alt="" class="promo-block__feature-image">
+		<div class="download-block">
+			<button type="button" class="download-block__download-button">Скачать приложение</button>
+			<div class="download-block__platform-icons">
+				<img src="" alt="" class="download-block__icon">
+				<img src="" alt="" class="download-block__icon">
+				<img src="" alt="" class="download-block__icon">
 			</div>
-
-			<div class="download-block">
-				<button type="button" class="download-block__download-button">Скачать приложение</button>
-				<div class="download-block__platform-icons">
-					<img src="" alt="" class="download-block__icon">
-					<img src="" alt="" class="download-block__icon">
-					<img src="" alt="" class="download-block__icon">
-				</div>
-				<p class="download-block__download-text">
-					Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8
-				</p>
-			</div>
-		</section>
-	</header>
+			<p class="download-block__download-text">
+				Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8
+			</p>
+		</div>
+	</section>
+	
 
 	<section class="offer-block">
 		<div class="offer-block__wrapper">
@@ -95,19 +106,19 @@
 		<div class="feedback__wrapper">
 			<div class="slider-feedback">
 				<article class="slider-feedback__item">
-					<blockquote class="slider-feedback__feedback-text"></blockquote>
-					<p class="slider-feedback__feedback-author"></p>
-					<p class="slider-feedback__author-description"></p>
+					<blockquote class="slider-feedback__feedback-text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</blockquote>
+					<p class="slider-feedback__feedback-author">Николай Петров</p>
+					<p class="slider-feedback__author-description">25 лет, водитель трамвая</p>
 				</article>
 				<article class="slider-feedback__item">
-					<blockquote class="slider-feedback__feedback-text"></blockquote>
-					<p class="slider-feedback__feedback-author"></p>
-					<p class="slider-feedback__author-description"></p>
+					<blockquote class="slider-feedback__feedback-text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</blockquote>
+					<p class="slider-feedback__feedback-author">Петр Николаев</p>
+					<p class="slider-feedback__author-description">22 года, пассажир трамвая</p>
 				</article>
 				<article class="slider-feedback__item">
-					<blockquote class="slider-feedback__feedback-text"></blockquote>
-					<p class="slider-feedback__feedback-author"></p>
-					<p class="slider-feedback__author-description"></p>
+					<blockquote class="slider-feedback__feedback-text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</blockquote>
+					<p class="slider-feedback__feedback-author">Кельвин Кляйн</p>
+					<p class="slider-feedback__author-description">71 год, модельер</p>
 				</article>
 				<div class="slider-feedback__controls">
 					<span class="slider-feedback__control-item slider-feedback__control-item--active"></span>
@@ -123,24 +134,33 @@
 			<table class="options-block__options-table">
 				<tr>
 					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
+					<th>
+						<p class="options-block__option-name">База</p>
+						<p class="options-block__option-price">1,99&nbsp;USD</p>
+					</th>
+					<th>
+						<p class="options-block__option-name">Стандарт</p>
+						<p class="options-block__option-price">3,99&nbsp;USD</p>
+					</th>
+					<th>
+						<p class="options-block__option-name">Анлим</p>
+						<p class="options-block__option-price">9,99&nbsp;USD</p>
+					</th>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
+					<td>Розовый фильтр</td>
 					<td></td>
 					<td></td>
 					<td></td>
 				</tr>
 				<tr>
+					<td>Смайлики</td>
 					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Комментарии</td>
 					<td></td>
 					<td></td>
 					<td></td>

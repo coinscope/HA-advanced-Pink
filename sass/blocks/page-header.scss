@@ -1,0 +1,37 @@
+.page-header {
+  min-height: 462px; //temporary
+  background: #2c3949 url("../img/bg/background-1@1x.jpg") center center no-repeat;
+}
+@media #{$tablet-width} {
+  .page-header {
+    min-height: 729px; //temporary
+    background-image: url("../img/bg/background-2@1x.jpg")
+  }
+}
+@media #{$desktop-width} {
+  .page-header {
+    min-height: 853px; //temporary
+    background-image: url("../img/bg/background-fullsize.jpg")
+  }
+}
+
+.page-header__top-row {
+  height: 66px;
+  @include clearfix;
+}
+
+.page-header__logo-wrap {
+  float: left;
+  width: 100px;
+
+  img {
+    width: 75px;
+    height: 22px;
+  }
+}
+
+.page-header__button-wrap {
+  float: right;
+  width: 70px;
+}
+
